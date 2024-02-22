@@ -142,6 +142,13 @@
 
 
 
+/* Custom Hover Color */
+.emby-button:hover, .lnkMediaFolder.navMenuOption.emby-button:hover {
+    color: rgb(255,192,0);
+}
+
+
+
 /* Modified background color */
 .backgroundContainer,
 .dialog,
