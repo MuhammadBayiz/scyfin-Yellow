@@ -136,8 +136,8 @@
 
 /* Custom button color */
 .navMenuOption-selected {
-    background: rgba(33, 149, 243, 0.2) !important;
-    color: rgb(33, 149, 243) !important;
+    background: rgba(255, 192, 0, 0.2) !important;
+    color: rgb(255,192,0) !important;
 }
 
 
