@@ -181,7 +181,7 @@ button.raised.button-submit.block.emby-button {
 
 /* Glassmorphism Action Sheet */
 .actionSheetContent {
-    padding: 0;
+    padding: 0!important;
 }
 .focuscontainer.dialog.actionsheet-not-fullscreen.actionSheet.centeredDialog.opened {
     background-color: rgba(35, 35, 35, 0.5) !important;
@@ -190,6 +190,12 @@ button.raised.button-submit.block.emby-button {
 }
 .listItem:hover {
     background: rgba(255,255,255,0.1);
+}
+.layout-desktop .listItem {
+    /* padding-left: 15px !important; */
+}
+.emby-input, .emby-textarea, .paperList, .listItem:hover, .subtitleappearance-preview {
+    border-radius: 24px !important;
 }
 
 /* Custom Checkbox Color */
