@@ -133,6 +133,29 @@
 }
 
 
+/* Custom Logo */
+.adminDrawerLogo img { content: url(https://i.ibb.co/L6ScxRh/wide.png) !important; } imgLogoIcon { content: url(https://i.ibb.co/L6ScxRh/wide.png) !important; }
+    
+.pageTitleWithLogo { 
+    
+    background-image: url(https://i.ibb.co/L6ScxRh/wide.png) !important;
+    background-size: 60% !important;
+    height: 3rem !important;
+    margin-top: -0.6rem !important;
+
+ }
+
+
+ /* Fix Margin */
+ .layout-mobile .headerLeft {
+    background-color: rgba(35, 35, 35, 0.5) !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(50px) !important;
+    max-inline-size: fit-content !important;
+}
+.layout-mobile .headerRight, .emby-tab-button {
+    margin-left: auto !important;
+}
 
 /* Custom button color */
 .navMenuOption-selected {
@@ -198,6 +221,11 @@ button.raised.button-submit.block.emby-button {
     border-radius: 24px !important;
 }
 
+/* Active Categori Color */
+.emby-tab-button-active {
+    color: rgb(255,192,0);
+}
+
 /* Custom Checkbox Color */
 background: rgb(223 223 223 / 6%);
 border-radius: 16px;
@@ -231,7 +259,7 @@ html {
 }
 .layout-desktop .headerTabs,
 .layout-desktop .headerRight {
-    margin-left: 250px !important;
+    margin-left: 10px !important;
     margin-bottom: 10px !important;
 }
 /* Button height */
